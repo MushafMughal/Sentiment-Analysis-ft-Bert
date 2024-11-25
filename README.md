@@ -58,10 +58,12 @@ This repository demonstrates a Sentiment Analysis pipeline using BERT (Bidirecti
 # Future Enhancements
 
 ### Integrate Additional Contextual Embeddings:
+
  - Incorporate models like RoBERTa, DistilBERT, or ALBERT to explore their effectiveness in sentiment analysis.
  - Compare accuracy, F1-score, and inference time across these models to identify the most optimal one.
 
 ### Implement Hyperparameter Tuning:
+
  - Use Grid Search or Bayesian Optimization to fine-tune hyperparameters such as:
     - Learning rate.
     - Batch size.
@@ -70,15 +72,19 @@ This repository demonstrates a Sentiment Analysis pipeline using BERT (Bidirecti
  - Automate the process using libraries like Optuna or Ray Tune.
 
 ### Extend Multi-lingual Support:
-Leverage mBERT or XLM-RoBERTa to handle sentiment analysis in multiple languages.
-Design preprocessing techniques to accommodate multi-lingual datasets (e.g., handling special characters or different scripts).
-Enhance Accuracy and Generalization:
 
-Data Augmentation:
-Introduce synthetic variations in training data (e.g., synonym replacement, paraphrasing).
-Class Imbalance Handling:
-Use techniques like oversampling, undersampling, or class-weight adjustments in the loss function to handle skewed datasets.
-Ensemble Methods:
-Combine predictions from multiple fine-tuned transformers to boost accuracy.
-Knowledge Distillation:
-Use a larger teacher model to train a smaller, faster student model while retaining accuracy.
+ - Leverage mBERT or XLM-RoBERTa to handle sentiment analysis in multiple languages.
+ - Design preprocessing techniques to accommodate multi-lingual datasets (e.g., handling special characters or different scripts).
+
+### Enhance Accuracy and Generalization:
+
+ - Data Augmentation:
+     - Introduce synthetic variations in training data (e.g., synonym replacement, paraphrasing).
+ - Class Imbalance Handling:
+     - Use techniques like oversampling, undersampling, or class-weight adjustments in the loss function to handle skewed datasets.
+
+ - Ensemble Methods:
+     - Combine predictions from multiple fine-tuned transformers to boost accuracy.
+
+ - Knowledge Distillation:
+     - Use a larger teacher model to train a smaller, faster student model while retaining accuracy.
