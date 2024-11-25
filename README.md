@@ -55,6 +55,13 @@ This repository demonstrates a Sentiment Analysis pipeline using BERT (Bidirecti
  - Loads the best saved model for testing.
  - Outputs detailed classification metrics and confusion matrix.
 
+# Performance
+ - Model Accuracy: **85.32%**
+
+ - Result Reports:
+
+   ![image](https://github.com/user-attachments/assets/244c0253-834f-4c0f-8325-450deccfab48)
+
 # Future Enhancements
 
 ### Integrate Additional Contextual Embeddings:
